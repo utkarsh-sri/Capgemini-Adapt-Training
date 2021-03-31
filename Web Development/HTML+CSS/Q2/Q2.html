@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="form.css">
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title">Survey From Marvel</h1>
+        <p id="description">
+          Thank you for taking this survey,
+           you are a superhero
+        </p>
+        <form class="survey" action="" method="post">
+          <!-- Text section -->
+          <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" class="formControl" placeholder="Enter your name" required>
+          </div>
+          <!-- end of text section -->
+
+          <!-- Type Email section -->
+          <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" class="formControl" placeholder="Enter your Email" required>
+          </div>
+          <!-- end of Email section -->
+
+          <!-- Type Number section -->
+          <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="number" name="phone" id="phone" class="formControl" placeholder="Enter your phone number" required>
+          </div>
+          <!-- end of Number section -->
+
+          <!-- Type Number section -->
+          <div class="form-group">
+              <label for="Favourite Superhero">Favourite Superhero?<span class="clue">(optional)</span></label>
+              <input type="text" name="favourite" id="favourite" class="formControl" placeholder="Enter your favourite superhero">
+          </div>
+          <!--  end of number section -->
+
+          <!-- select section -->
+          <div class="form-group">
+              <p id="quest">Tell us your role mate</p>
+              <select name="role" required id="dropdown" class="formControl">
+                  <option value disabled selected >Select current role</option>
+                  <option value="student">Hero</option>
+                  <option value="teacher">Protagonist</option>
+                  <option value="job">Anitihero</option>
+                  <option value="other">Superhero</option>
+              </select>
+          </div>
+          <!-- end of select section -->
+
+          <!-- radio button section -->
+          <div class="form-group">
+              <p id="quest">How you come to know about MARVEL ?</p>
+              <label for="">
+                  <input type="radio" name="source" value="comics"
+                  class="inputRadio"
+                  checked> Comics
+              </label>
+              <label for="">
+                  <input type="radio" name="source" value="movies"
+                  class="inputRadio"
+                  > Movies
+              </label>
+              <label for="">
+                  <input type="radio" name="source" value="webseries"
+                  class="inputRadio"
+                  > Web Series
+              </label>
+              <label for="">
+                  <input type="radio" name="source" value="games"
+                  class="inputRadio"
+                  > Games
+              </label>
+              <label for="">
+                  <input type="radio" name="source" value="other"
+                  class="inputRadio"
+                  > Other
+              </label>
+          </div>
+          <!-- end of radio button -->
+
+          <!-- Checkbox section -->
+          <div class="form-group">
+              <p id="quest">What would you like to see improved ? </p>
+              <label for="">
+                  <input type="checkbox" name="prefer" class="checkbox" value="movies"> Movies
+              </label>
+              <label for="">
+                  <input type="checkbox" name="prefer" class="checkbox" value="webseries"> Web Series
+              </label>
+              <label for="">
+                  <input type="checkbox" name="prefer" class="checkbox" value="comics"> Comics
+              </label>
+              <label for="">
+                  <input type="checkbox" name="prefer" class="checkbox" value="youtube"> YouTube
+              </label>
+              <label for="">
+                  <input type="checkbox" name="prefer" class="checkbox" value="games"> Games
+              </label>
+              <label for="">
+                  <input type="checkbox" name="prefer" class="checkbox" value="other"> Other
+              </label>
+          </div>
+          <!-- End of checkbox section -->
+
+          <!-- Textarea section -->
+          <div class="form-group">
+              <p id="quest">Give us your feedback</p>
+              <textarea name="feedback"  cols="30" rows="5"  id="feedback" class="textarea" placeholder="Enter your feedback here..."></textarea>
+          </div>
+          <div class="form-group">
+              <button type="submit" id="submit" class="btn">Submit</button>
+          </div>
+        </form>
+      </header>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+}
+html,body{
+  font-family: Bebas Neue;
+  font-size: 14px;
+  font-weight: normal;
+  height: 100%;
+  background: url(photo.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.header{
+  padding: 15px 35px;
+  display: inline-block;
+  width: 100%
+}
+.logo{
+  float: left;
+}
+img{
+  max-width: 100%;
+}
+.menu{
+  float: right;
+}
+.menu ul li{
+  display: inline-block;
+  float: left;
+  line-height: 28px;
+  margin-top: 15px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  padding: 5px 20px;
+  letter-spacing: 2px;
+
+}
+.menu ul li a:hover{
+  color: yellow;
+}
+.name{
+  width: 350px;
+  margin-top: 250px;
+  text-align: right;
+  margin-left: 15px;
+}
+.name h5{
+  color: yellow;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+.name h1{
+  color: #fff;
+  font-size: 110px;
+  line-height: 88px;
+  letter-spacing: 5px;
+}
+
+.box1{
+    height: 100vh;
+    width:100%;
+    background-image: url(s1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+}
+
+.box2{
+    height: 100vh;
+    width:100%;
+    background-image: url(s2.jpg);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+
+}
+
+.box3{
+    height: 100vh;
+    width:100%;
+    background-image: url(s3.jpg);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+
+}
+
+.box4{
+    height: 100vh;
+    width:100%;
+    background-image: url(s4.jpg);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+
+}
+
+#ah1{
+  font-family: sans-serif;
+  font-size: 48px;
+  color: #fff;
+  margin: 0px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
