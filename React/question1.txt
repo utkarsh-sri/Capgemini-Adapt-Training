@@ -1,0 +1,7 @@
+in terminal
+	npx create-react-app my-app
+
+in project 
+	in App.js
+		in <div className="App">   
+			<h1>hello world </h1>
